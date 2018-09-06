@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/m_standard/Multiplication.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/m_standard/Division.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/common/Multiplexer.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/STATE_REG.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/m_standard/RV32M.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/REG_ARRAY.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/INS_TYPE_ROM.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/IMM_EXT.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/CSR_FILE.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/CONTROL_UNIT.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/state_mem.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/memory.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/EXSTAGE.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/DECODE_UNIT.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/PIPELINE.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/Peripheral.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/myip_v1_0_M00_AXI.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/Dcache.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/cache.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/pipeline/BHT.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/common/RISCV_PROCESSOR.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+verilog xil_defaultlib  "../../../riscv_vivado.srcs/sources_1/imports/design/newcache/myip_v1_0_S00_AXI.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+sv xil_defaultlib  "../../../riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v" --include "../../../riscv_vivado.srcs/sources_1/imports/design/common" --include "../../../riscv_vivado.srcs/sources_1/imports/design/newcache"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

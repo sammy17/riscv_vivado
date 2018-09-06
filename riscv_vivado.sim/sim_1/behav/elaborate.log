@@ -1,0 +1,49 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 4c4a0a2261e14aa4b44984f313e220bb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_RISCV_PROCESSOR_behav xil_defaultlib.Test_RISCV_PROCESSOR xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ADDR_VALID [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/common/RISCV_PROCESSOR.v:644]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S_AXI_AWREGION [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:306]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S_AXI_ARREGION [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:330]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S_AXI_AWREGION [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:363]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S_AXI_ARREGION [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:387]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.INS_TYPE_ROM
+Compiling module xil_defaultlib.Bit_Multiplexer(ORDER=3)
+Compiling module xil_defaultlib.Multiplexer(ORDER=3,WIDTH=32)
+Compiling module xil_defaultlib.IMM_EXT
+Compiling module xil_defaultlib.REG_ARRAY
+Compiling module xil_defaultlib.STATE_REG
+Compiling module xil_defaultlib.CONTROL_UNIT
+Compiling module xil_defaultlib.Multiplexer(ORDER=3,WIDTH=5)
+Compiling module xil_defaultlib.DECODE_UNIT
+Compiling module xil_defaultlib.Bit_Multiplexer(ORDER=4)
+Compiling module xil_defaultlib.Multiplexer(ORDER=4,WIDTH=32)
+Compiling module xil_defaultlib.Bit_Multiplexer(ORDER=5)
+Compiling module xil_defaultlib.Multiplexer(WIDTH=32)
+Compiling module xil_defaultlib.CSR_FILE
+Compiling module xil_defaultlib.Multiplication(INPUT_WIDTH=32)
+Compiling module xil_defaultlib.Division(INPUT_WIDTH=32)
+Compiling module xil_defaultlib.RV32M
+Compiling module xil_defaultlib.Multiplexer(ORDER=3,WIDTH=1)
+Compiling module xil_defaultlib.EXSTAGE
+Compiling module xil_defaultlib.Bit_Multiplexer(ORDER=1)
+Compiling module xil_defaultlib.Multiplexer(ORDER=1,WIDTH=32)
+Compiling module xil_defaultlib.PIPELINE
+Compiling module xil_defaultlib.BHT_default
+Compiling module xil_defaultlib.Peripheral
+Compiling module xil_defaultlib.myip_v1_0_M00_AXI(C_M_TARGET_SLA...
+Compiling module xil_defaultlib.MEMORY(data_width=256,address_wi...
+Compiling module xil_defaultlib.MEMORY(data_width=18,address_wid...
+Compiling module xil_defaultlib.STATE_MEMORY(depth=512,address_w...
+Compiling module xil_defaultlib.Icache(data_width=32,address_wid...
+Compiling module xil_defaultlib.Dcache(data_width=32,address_wid...
+Compiling module xil_defaultlib.RISCV_PROCESSOR_default
+Compiling module xil_defaultlib.myip_v1_0_S00_AXI(C_S_AXI_ID_WID...
+Compiling module xil_defaultlib.Test_RISCV_PROCESSOR
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_RISCV_PROCESSOR_behav

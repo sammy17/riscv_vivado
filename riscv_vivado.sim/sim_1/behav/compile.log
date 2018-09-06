@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/m_standard/Multiplication.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplication
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/m_standard/Division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Division
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/common/Multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer
+INFO: [VRFC 10-311] analyzing module Bit_Multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/STATE_REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STATE_REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/m_standard/RV32M.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32M
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/REG_ARRAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ARRAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/INS_TYPE_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INS_TYPE_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/IMM_EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMM_EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/CSR_FILE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR_FILE
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/CONTROL_UNIT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROL_UNIT
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/state_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STATE_MEMORY
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMORY
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/EXSTAGE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXSTAGE
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/DECODE_UNIT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DECODE_UNIT
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIPELINE
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/Peripheral.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Peripheral
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/myip_v1_0_M00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myip_v1_0_M00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/Dcache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dcache
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Icache
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/pipeline/BHT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BHT
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/common/RISCV_PROCESSOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_PROCESSOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/myip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myip_v1_0_S00_AXI
+WARNING: [VRFC 10-634] event expressions must result in a singular type [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sources_1/imports/design/newcache/myip_v1_0_S00_AXI.v:610]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test_RISCV_PROCESSOR
+INFO: [VRFC 10-2458] undeclared symbol m00_axi_awregion, assumed default net type wire [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:306]
+INFO: [VRFC 10-2458] undeclared symbol m00_axi_arregion, assumed default net type wire [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:330]
+INFO: [VRFC 10-2458] undeclared symbol m01_axi_awregion, assumed default net type wire [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:363]
+INFO: [VRFC 10-2458] undeclared symbol m01_axi_arregion, assumed default net type wire [F:/RISC-V/riscv_vivado/riscv_vivado.srcs/sim_1/imports/simulation/TEST_RISCV_PROCESSOR.v:387]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/RISC-V/riscv_vivado/riscv_vivado.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
